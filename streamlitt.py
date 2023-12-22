@@ -11,7 +11,7 @@ import optuna
 os.chdir('c:\\Users\\rider\\Downloads')
 
 
-Model = joblib.load('zomato_rf.h5') 
+Model = joblib.load('\app\zomato\zomato_rf.h5') 
 
 def main():
 
