@@ -66,7 +66,7 @@ def main():
     approx_cost = st.number_input('Enter approximate cost for two people')
 
 
-    prediction = 'Prediction is not made yet, Click Predict Car Price to make prediction.'
+    prediction = 'Prediction is not made yet, Click Predict make prediction.'
 
     input_data = [online_order,book_table,votes,location,rest_type,approx_cost]
 
