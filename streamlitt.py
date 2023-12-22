@@ -2,13 +2,12 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-import os
-import sklearn
-import optuna
 
 
 
-os.chdir('c:\\Users\\rider\\Downloads')
+
+
+
 
 
 Model = joblib.load('\app\zomato\zomato_rf.h5') 
