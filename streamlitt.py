@@ -10,7 +10,7 @@ import numpy as np
 
 
 
-Model = joblib.load('\app\zomato\zomato_rf.h5') 
+Model = joblib.load('\app\project\zomato_rf.h5') 
 
 def main():
 
