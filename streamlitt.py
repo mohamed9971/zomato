@@ -11,7 +11,7 @@ print(os.getcwd())
 
 
 
-Model = joblib.load('\app\zomato\zomato_rf.h5') 
+Model = joblib.load('\zomato\zomato_rf.h5') 
 
 def main():
 
