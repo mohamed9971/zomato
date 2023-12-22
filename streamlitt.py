@@ -2,15 +2,16 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
+import os
 
 
 
 
+print(os.getcwd())
 
 
 
-
-Model = joblib.load('\app\project\zomato_rf.h5') 
+Model = joblib.load('\app\zomato\zomato_rf.h5') 
 
 def main():
 
